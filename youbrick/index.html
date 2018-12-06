@@ -83,14 +83,25 @@
               <form class="site-search__form" action="#" method="post">
                 <input class="site-search__search-input" placeholder="Search" type="search" name="search-input">
                 <button class="site-search__button" type="submit">
-                  <img src="img/searc-icon.jpg" width="22" height="22" alt="">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                    <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                    <g><path d="M966.1,853.5L731.7,617c-2.7-2.7-5.8-4.8-8.6-7.1c39.6-61.3,62.7-134.3,62.7-212.9c0-216-173.6-391-387.9-391C183.7,6,10,181.1,10,397.1c0,216,173.7,391,387.9,391c78,0,150.4-23.4,211.3-63.3c2.2,3,4.3,5.9,6.9,8.6l234.5,236.4c16,16.1,36.9,24.1,57.8,24.1c20.9,0,41.8-8,57.7-24.1C998,937.7,998,885.6,966.1,853.5 M397.9,664.6c-146.3,0-265.4-120-265.4-267.6c0-147.5,119.1-267.6,265.4-267.6c146.3,0,265.4,120.1,265.4,267.6C663.3,544.6,544.2,664.6,397.9,664.6"/>
+                    </g>
+                  </svg>
+                  <!--<img src="img/searc-icon.jpg" width="22" height="22" alt="">-->
                   <span class="visually-hidden">Поиск</span>
                 </button>
               </form>
             </div>
 
-            <div class="main-nav__item main-nav__item--favourites">
-              <img  class="main-nav__favourites-image" src="img/favourites.jpg" width="28" height="28" alt="Избранное">
+            <div class="main-nav__item main-nav__item--favourites favourites-button">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                <g>
+                  <path d="M495.3,100.6l132.1,264.2l288.3,42L705.5,611.1l48,288.3L495.3,767.3L237,905.4l48-288.3L74.9,406.9l288.3-42L495.3,100.6 M495.3,40.6c-24,0-42,12-54.1,36L327.1,310.8l-258.2,36c-24,6-42,24-54.1,42c-12,18,0,48,18,60.1L219,629.1l-42,258.2c-6,24,6,48,24,60.1c12,6,24,12,36,12c12,0,18,0,30-6l234.2-120.1l234.2,120.1c6,6,18,6,30,6c12,0,24-6,36-12c18-12,30-36,24-60.1l-42-258.2L969.7,449c18-18,24-42,18-60.1c-6-24-24-36-48-42l-258.2-36L549.3,76.6C537.3,58.6,519.3,40.6,495.3,40.6L495.3,40.6z"/>
+                </g>
+              </svg>
+              <!--<img  class="main-nav__favourites-image" src="img/favourites.jpg" width="28" height="28" alt="Избранное">-->
             </div>
           </div>
         </div>
@@ -261,7 +272,9 @@
 
                   <div class="col-lg-6">
                     <div class="catalog__description">
-                      <div class="catalog__bar"></div>
+                      <div class="catalog__bar">
+                        <span class="catalog__bar-inner"></span>
+                      </div>
                       <div class="catalog__favourites">
                         <img  class="catalog__favourites-image" src="img/favourites-grey.jpg" width="28" height="28" alt="Избранное">
                       </div>
@@ -301,5 +314,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="js/favorit_reaction.js"></script>
 </body>
 </html>
